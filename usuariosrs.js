@@ -3,7 +3,11 @@ const url = 'https://raw.githubusercontent.com/teuzsw/graficos-alura/refs/heads/
 async function visualizarInformacoes() {
     const resp = await fetch(url)
     const dados = await resp.json()
-    console.log(dados)
+    console.log(dados);
+    
+    const paragrafo = document.createElement('p')
+
+    paragrafo.innerHTML = `Você sabia que existem ${dados.} usuários ativos no facebook?`
     
 }
 
