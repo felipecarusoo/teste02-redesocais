@@ -7,7 +7,7 @@ async function visualizarInformacoes() {
     
     const paragrafo = document.createElement('p')
 
-    paragrafo.innerHTML = `Você sabia que existem <span>${dados.Facebook} usuários ativos no facebook?</span>`
+    paragrafo.innerHTML = `Você sabia que existem <span>${dados.Facebook}</span> usuários ativos no facebook?`
     console.log(paragrafo)
 
     const container = document.getElementById('graficos-container')
