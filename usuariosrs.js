@@ -7,7 +7,12 @@ async function visualizarInformacoes() {
     
     const paragrafo = document.createElement('p')
 
-    paragrafo.innerHTML = `Você sabia que existem ${dados.} usuários ativos no facebook?`
+    paragrafo.innerHTML = `Você sabia que existem <span>${dados.Facebook} usuários ativos no facebook?</span>`
+    console.log(paragrafo)
+
+    const container = document.getElementById('graficos-container')
+    container.appendChild(paragrafo)
+
     
 }
 
