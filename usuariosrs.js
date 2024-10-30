@@ -4,7 +4,7 @@ async function visualizarInformacoes() {
     const resp = await fetch(url)
     const dados = resp.json()
     console.log(dados)
-
-    visualizarInformacoes()
     
 }
+
+visualizarInformacoes()
