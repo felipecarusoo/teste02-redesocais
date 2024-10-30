@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --bg-color: #FAF0E6;
+    --primary-color: #352F44;
+    --secundary-color: #5C5470;
+    --font: "Open Sans", sans-serif;
+}
